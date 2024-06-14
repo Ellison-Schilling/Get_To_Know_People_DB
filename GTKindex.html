@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get To Know People</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 48px; /* Increased font size */
+            font-weight: 700; /* Increased font weight */
+            color: #2c3e50; /* Changed color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Added text shadow */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        li a {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        li a:hover {
+            background-color: #45a049;
+        }
+
+        li a i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Get To Know People</h1>
+        <ul>
+            <li><a href="person_info_request.php"><i class="fas fa-user"></i>Information on a Person</a></li>
+            <li><a href="song_info_request.php"><i class="fas fa-music"></i>Information on Songs</a></li>
+            <li><a href="band_info_request.php"><i class="fas fa-guitar"></i>Information on Bands</a></li>
+            <li><a href="resturaunt_info_request.php"><i class="fas fa-utensils"></i>Information on Restaurants</a></li>
+            <li><a href="boardgame_info_request.php"><i class="fas fa-chess-board"></i>Information on Board Games</a></li>
+            <li><a href="who_likes_resturant_request.php"><i class="fas fa-users"></i>Figure Out Where to Eat with a Group</a></li>
+            <li><a href="what_song_group_likes_request.php"><i class="fas fa-play-circle"></i>Find Out What Song to Play in a Group</a></li>
+            <li><a href="who_can_play_request.php"><i class="fas fa-users"></i>Figure Out How Many People Can Play a Board Game</a></li>
+        </ul>
+    </div>
+</body>
+</html>
