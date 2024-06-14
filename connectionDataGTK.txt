@@ -1,9 +1,0 @@
-<?php
-
-$server = "ix.cs.uoregon.edu";
-$dbname ="get_to_know_people";
-$user = "ellisons";
-$pass = "Panda7171";
-$port="3049";
-
-?>
